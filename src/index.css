@@ -1,4 +1,17 @@
 .buttons{
   height:70px;
   width:70px;
+  font-size:18px;
+}
+.ticcontainer{
+  display: grid;
+  grid-template-columns: 70px 70px 70px;
+  grid-template-rows: 70px 70px 70px;
+  
+}
+.container{
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
 }

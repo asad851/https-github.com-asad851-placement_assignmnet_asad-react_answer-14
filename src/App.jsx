@@ -26,8 +26,8 @@ function App() {
   }, [player])
   
   return (
-    <div>
-    <div>
+    <div className="container">
+    <div className="ticcontainer">
       <button onClick={handleClick} className="buttons"></button>
       <button onClick={handleClick} className="buttons"></button>
       <button onClick={handleClick} className="buttons"></button>
@@ -38,8 +38,8 @@ function App() {
       <button onClick={handleClick} className="buttons"></button>
       <button onClick={handleClick} className="buttons"></button>
     </div>
-    <button onClick={()=>{setplayer("One")}}>X</button>
-    <button onClick={()=>{setplayer("Two")}}>O</button>
+   <div> <button onClick={()=>{setplayer("One")}}>X</button>
+    <button onClick={()=>{setplayer("Two")}}>O</button></div>
     </div>
   );
 }
